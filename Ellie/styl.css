@@ -1,0 +1,43 @@
+body    {
+    font-family: Poppins
+}
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins/Poppins-Medium.ttf);
+    font-style: large;
+}
+.centrovany {
+  text-align: center;
+}
+.pravy {
+  text-align: right;
+}
+.levy {
+  text-align: left;
+}
+.velkyNadpis {
+  text-align: center;
+  font-size: xx-large;
+  background: white;
+}
+h1,h2,h3 {
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+.obrCentr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.ht {
+  color: gold;
+}
+.tabCentr {
+  margin-left: auto;
+  margin-right: auto;
+}
+td:nth-child(even), th:nth-child(even) {
+  background-color: darkgray;
+}
